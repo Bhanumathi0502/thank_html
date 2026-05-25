@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Halloween Store</title>
+<style>
+    html{
+        background-image: url("bats.gif");
+    }
+body {
+    margin: 20px; /* space around the border */
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    border: 5px solid #000000; /* black border */
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); /* subtle shadow */
+    padding: 10px; /* inner spacing */
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background: linear-gradient(to left, #000000, #ff9933, #ffffff);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+header h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #222;
+    font-weight: bold;
+}
+header p {
+    margin: 0;
+    font-weight: bold; /* bold but not italic */
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    background-color: #000;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #ff9933;
+}
+
+/* ---------- SIDEBAR ---------- */
+aside {
+    float: left;
+    width: 140px;
+    height: 400px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+aside button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #000000; /* black border for buttons */
+    cursor: pointer;
+    background-color: #ff9933; /* same orange for all buttons */
+    color: #000;
+}
+aside button:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+/* Make any <p> inside aside bold but not italic */
+aside p {
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ---------- MAIN ---------- */
+main {
+    margin-left: 160px;
+    padding: 25px;
+}
+h2 {
+    color: #222;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    clear: both;
+    background: linear-gradient(to right, #000000, #ff9933, #ffffff);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: #000;
+}
+</style>
+</head>
+<body>
+<header>
+    <img src="pumpkin.jpg" alt="Pumpkin">
+    <div>
+        <h1>The Halloween Store</h1>
+        <p>For the little Goblin in all of us!</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Product List</a>
+    <a href="#">Personal</a>
+    <a href="#">Decorating Ideas</a>
+    <a href="join_email.html">Join Email</a>
+</nav>
+
+<aside>
+    <button>Props</button>
+    <button>Costumes</button>
+    <button>Special FX</button>
+    <button>Masks</button>
+</aside>
+
+<main>
+    <h2>Thank you for joining my email list!</h2>
+    <p>You will be hearing from me soon. Please feel free to browse through my site.</p>
+</main>
+
+<footer>
+    &copy; 2015 Ben Murach
+</footer>
+</body>
+</html>
